@@ -14,8 +14,8 @@
 | GPU 驱动软件    | Driver 418.74 |
 | 内存        | 8 GB DDR4          |
 | 硬盘       | NVMe SSD 256 GB             |
-| Milvus     |  0.7.1  |
-| pymilvus    |   0.2.9    |
+| Milvus     |  0.8.0  |
+| pymilvus    |   0.2.10    |
 
 测试工具下载：
 - 100 万测试数据集下载地址：链接：https://pan.baidu.com/s/1XB0u4zDJoF-2E9T5HmoWJQ   提取码：zvs4 
