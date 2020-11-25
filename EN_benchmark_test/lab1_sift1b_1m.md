@@ -16,8 +16,8 @@ The following configuration has been tested:
 | GPU Driver    | Driver 418.74 |
 | Memory        | 8 GB DDR4          |
 | Storage       | NVMe SSD 256 GB             |
-| Milvus       | 0.6.0            |
-| pymilvus       | 0.2.6            |
+| Milvus       | 0.10.3            |
+| pymilvus       | 0.2.14            |
 
 #### Download test tools
 
@@ -51,7 +51,6 @@ Configuration file: `/home/$USER/milvus/conf/server_config.yaml`
 |         `gpu_search_threshold`	                |   1001     |
 |         `search_resources`	                |   gpu0     |
 
-Refer to [Milvus Configuration](https://github.com/milvus-io/docs/blob/0.7.1/reference/milvus_config.md) for more information.
 
 Use default values for other parameters. After setting parameter values, restart Milvus Docker to apply all changes.
 
@@ -61,9 +60,9 @@ $ docker restart <container id>
 
 ## 3. Create a table and build indexes
 
-Make sure Milvus is already installed and started. (For details of Milvus installation, please read [Milvus Quick Start](https://milvus.io/docs/v0.9.0/guides/get_started/install_milvus/gpu_milvus_docker.md)).
+Make sure Milvus is already installed and started. (For details of Milvus installation, please read [Milvus Quick Start](https://milvus.io/docs/v0.10.3/install_milvus.md)).
 
->  Before testing, please modify the corresponding parameters according to the [script instructions](/benchmark_test/scripts/README.md)
+>  Before testing, please modify the corresponding parameters according to the [script instructions](/benchmark_test/scripts/EN_README.md)
 
 
 Go to `milvus_sift1m`, and run the following command to create a table and build indexes:
