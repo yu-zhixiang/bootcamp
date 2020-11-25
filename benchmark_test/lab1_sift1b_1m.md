@@ -47,7 +47,7 @@ Milvus 可以根据数据分布和性能、准确性的要求灵活调整相关�
 | `gpu_search_threshold` | 1001         |
 | `search_resources`     | gpu0 |
 
-关于参数设置的详细信息请参考[Milvus 配置](https://github.com/milvus-io/milvus/blob/0.10.3/core/conf/demo/server_config.yaml)。
+关于参数设置的详细信息请参考[Milvus 配置](https://github.com/milvus-io/milvus/blob/0.10.0/core/conf/demo/server_config.yaml)。
 
 其余参数保持默认即可。配置文件参数修改完毕后，重启 Milvus Docker 使配置生效。
 
