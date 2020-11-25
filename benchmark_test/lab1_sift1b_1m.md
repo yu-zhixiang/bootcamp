@@ -14,8 +14,8 @@
 | GPU 驱动软件    | Driver 418.74 |
 | 内存        | 8 GB DDR4          |
 | 硬盘       | NVMe SSD 256 GB             |
-| Milvus     |  0.7.1  |
-| pymilvus    |   0.2.9    |
+| Milvus     |  0.9.0  |
+| pymilvus    |   0.2.11    |
 
 测试工具下载：
 - 100 万测试数据集下载地址：链接：https://pan.baidu.com/s/1XB0u4zDJoF-2E9T5HmoWJQ   提取码：zvs4 
@@ -47,7 +47,6 @@ Milvus 可以根据数据分布和性能、准确性的要求灵活调整相关�
 | `gpu_search_threshold` | 1001         |
 | `search_resources`     | gpu0 |
 
-关于参数设置的详细信息请参考[Milvus 配置](https://www.milvus.io/docs/zh-CN/reference/milvus_config/)。
 
 其余参数保持默认即可。配置文件参数修改完毕后，重启 Milvus Docker 使配置生效。
 
@@ -57,7 +56,7 @@ $ docker restart <container id>
 
 ## 3、 建表并建立索引
 
-建表之前，首先确认 Milvus 已经正常启动。（ Milvus 安装及启动方法参见：[Milvus 快速上手](https://milvus.io/cn/docs/v0.9.0/guides/get_started/install_milvus/gpu_milvus_docker.md) ）
+建表之前，首先确认 Milvus 已经正常启动。（ Milvus 安装及启动方法参见：[Milvus 快速上手](https://milvus.io/cn/docs/v0.9.0/install_milvus.md) ）
 
 >  测试之前请根据脚本[说明](/benchmark_test/scripts/README.md)修改相应参数！
 
