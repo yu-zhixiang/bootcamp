@@ -14,8 +14,8 @@
 | GPU 驱动软件    | Driver 418.74 |
 | 内存        | 8 GB DDR4          |
 | 硬盘       | NVMe SSD 256 GB             |
-| Milvus     |  0.7.1  |
-| pymilvus    |   0.2.9    |
+| Milvus     |  0.10.0  |
+| pymilvus    |   0.2.14    |
 
 测试工具下载：
 - 100 万测试数据集下载地址：链接：https://pan.baidu.com/s/1TSjGaAlQOQm3PpJfZ6dtPQ   提取码：2x5o
@@ -47,7 +47,7 @@ Milvus 可以根据数据分布和性能、准确性的要求灵活调整相关�
 | `gpu_search_threshold` | 1001         |
 | `search_resources`     | gpu0 |
 
-关于参数设置的详细信息请参考[Milvus 配置](https://www.milvus.io/docs/zh-CN/reference/milvus_config/)。
+关于参数设置的详细信息请参考[Milvus 配置](https://github.com/milvus-io/milvus/blob/0.10.3/core/conf/demo/server_config.yaml)。
 
 其余参数保持默认即可。配置文件参数修改完毕后，重启 Milvus Docker 使配置生效。
 
