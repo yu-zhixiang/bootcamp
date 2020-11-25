@@ -4,7 +4,7 @@
 
 本实验所使用的原始数据集为 SIFT1B ，关于该数据集的详细信息请参考：[http://corpus-texmex.irisa.fr/](http://corpus-texmex.irisa.fr/)。在本次测试中，我们提取了原始数据集中的 1 亿条数据。
 
-经实测，以下硬件配置可顺利完成实验：
+经实测，以下配置可顺利完成实验：
 
 | Component           | Minimum Config                |
 | ------------------ | -------------------------- |
@@ -14,6 +14,8 @@
 | GPU Driver    | CUDA 10.1, Driver 418.74 |
 | Memory        | 16 GB DDR4 ( 2400 Mhz ) x 2                |
 | Storage       | SATA 3.0 SSD 256 GB                  |
+| Milvus     |  0.10.0  |
+| pymilvus    |   0.2.14    |
 
 测试工具下载：
 - 1亿测试数据集下载地址：https://pan.baidu.com/s/1N5jGKHYTGchye3qR31aNnA
@@ -52,7 +54,7 @@ $ docker restart <container id>
 
 ## 3、 建表并建立索引
 
-建表之前确认 Milvus 已经正常启动。（ Milvus 安装及启动方法参见：[Milvus 快速上手](https://milvus.io/cn/docs/v0.10.0/guides/get_started/install_milvus/gpu_milvus_docker.md) ）
+建表之前确认 Milvus 已经正常启动。（ Milvus 安装及启动方法参见：[Milvus 快速上手](https://milvus.io/cn/docs/v0.10.0/install_milvus.md) ）
 
 > 测试之前请根据脚本[说明](/benchmark_test/scripts/README.md)修改相应参数！
 
