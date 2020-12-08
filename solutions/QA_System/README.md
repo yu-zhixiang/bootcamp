@@ -63,7 +63,7 @@ bert-serving-start -model_dir chinese_L-12_H-768_A-12/ -num_worker=12 -max_seq_l
 5. 启动查询服务
 
 ```
-python app.py
+uvicorn main:app --host 127.0.0.1 --port 8000
 ```
 
 6. 打开 Fastapi 提供的前端接口
