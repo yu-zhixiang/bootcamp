@@ -1,5 +1,7 @@
 # About Benchmark testing
 
+This project will no longer be maintained and updated, and the latest content will be updated at https://github.com/zilliz-bootcamp/milvus_benchmark/tree/0.10
+
 [English](README.md) | [中文版](../benchmark_test/README.md)
 
 The benchmark testing section includes the following content:
